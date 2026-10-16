@@ -1,0 +1,226 @@
+[
+ {
+  "fn": "lengthTruth",
+  "args": [
+   75,
+   1
+  ],
+  "out": "At 75 kg the all-mountain chart reads 155.5 to 159.5 cm; the chin test never asked your weight honestly."
+ },
+ {
+  "fn": "lengthTruth",
+  "args": [
+   40,
+   1
+  ],
+  "out": "At 40 kg the all-mountain chart reads 138.0 to 142.0 cm; the chin test never asked your weight honestly."
+ },
+ {
+  "fn": "lengthTruth",
+  "args": [
+   100,
+   1
+  ],
+  "out": "At 100 kg the all-mountain chart reads 163.0 to 167.0 cm; the chin test never asked your weight honestly."
+ },
+ {
+  "fn": "lengthTruth",
+  "args": [
+   75,
+   0
+  ],
+  "out": "At 75 kg the freestyle chart reads 152.5 to 156.5 cm; the chin test never asked your weight honestly."
+ },
+ {
+  "fn": "lengthTruth",
+  "args": [
+   75,
+   2
+  ],
+  "out": "At 75 kg the freeride chart reads 157.5 to 161.5 cm; the chin test never asked your weight honestly."
+ },
+ {
+  "fn": "lengthTruth",
+  "args": [
+   55,
+   1
+  ],
+  "out": "At 55 kg the all-mountain chart reads 147.5 to 151.5 cm; the chin test never asked your weight honestly."
+ },
+ {
+  "fn": "lengthTruth",
+  "args": [
+   110,
+   1
+  ],
+  "out": "At 110 kg the all-mountain chart reads 166.0 to 170.0 cm; the chin test never asked your weight honestly."
+ },
+ {
+  "fn": "lengthTruth",
+  "args": [
+   0,
+   1
+  ],
+  "err": "the rider weight must be above zero"
+ },
+ {
+  "fn": "lengthTruth",
+  "args": [
+   -10,
+   1
+  ],
+  "err": "the rider weight must be above zero"
+ },
+ {
+  "fn": "widthTruth",
+  "args": [
+   10,
+   255
+  ],
+  "out": "A US 10 boot measures about 290.0 mm over the sole; the 255 mm waist comes 5.0 mm short of the drag line honestly."
+ },
+ {
+  "fn": "widthTruth",
+  "args": [
+   9,
+   258
+  ],
+  "out": "A US 9 boot measures about 280.0 mm over the sole; the 258 mm waist clears the drag line by 8.0 mm honestly."
+ },
+ {
+  "fn": "widthTruth",
+  "args": [
+   12,
+   260
+  ],
+  "out": "A US 12 boot measures about 310.0 mm over the sole; the 260 mm waist comes 20.0 mm short of the drag line honestly."
+ },
+ {
+  "fn": "widthTruth",
+  "args": [
+   8,
+   250
+  ],
+  "out": "A US 8 boot measures about 270.0 mm over the sole; the 250 mm waist clears the drag line by 10.0 mm honestly."
+ },
+ {
+  "fn": "widthTruth",
+  "args": [
+   10,
+   270
+  ],
+  "out": "A US 10 boot measures about 290.0 mm over the sole; the 270 mm waist clears the drag line by 10.0 mm honestly."
+ },
+ {
+  "fn": "widthTruth",
+  "args": [
+   7,
+   240
+  ],
+  "out": "A US 7 boot measures about 260.0 mm over the sole; the 240 mm waist clears the drag line by 10.0 mm honestly."
+ },
+ {
+  "fn": "widthTruth",
+  "args": [
+   13,
+   265
+  ],
+  "out": "A US 13 boot measures about 320.0 mm over the sole; the 265 mm waist comes 25.0 mm short of the drag line honestly."
+ },
+ {
+  "fn": "widthTruth",
+  "args": [
+   0,
+   255
+  ],
+  "err": "the boot size must be above zero"
+ },
+ {
+  "fn": "widthTruth",
+  "args": [
+   10,
+   0
+  ],
+  "err": "the waist width must be above zero"
+ },
+ {
+  "fn": "stanceTruth",
+  "args": [
+   178,
+   56
+  ],
+  "out": "At 178 cm the stance chart reads 51.6 cm; the board's 56.0 cm reference sits 4.4 cm wider honestly."
+ },
+ {
+  "fn": "stanceTruth",
+  "args": [
+   160,
+   51
+  ],
+  "out": "At 160 cm the stance chart reads 46.4 cm; the board's 51.0 cm reference sits 4.6 cm wider honestly."
+ },
+ {
+  "fn": "stanceTruth",
+  "args": [
+   190,
+   55
+  ],
+  "out": "At 190 cm the stance chart reads 55.1 cm; the board's 55.0 cm reference sits 0.1 cm narrower honestly."
+ },
+ {
+  "fn": "stanceTruth",
+  "args": [
+   172,
+   50
+  ],
+  "out": "At 172 cm the stance chart reads 49.9 cm; the board's 50.0 cm reference sits 0.1 cm wider honestly."
+ },
+ {
+  "fn": "stanceTruth",
+  "args": [
+   165,
+   48
+  ],
+  "out": "At 165 cm the stance chart reads 47.8 cm; the board's 48.0 cm reference sits 0.2 cm wider honestly."
+ },
+ {
+  "fn": "stanceTruth",
+  "args": [
+   200,
+   60
+  ],
+  "out": "At 200 cm the stance chart reads 58.0 cm; the board's 60.0 cm reference sits 2.0 cm wider honestly."
+ },
+ {
+  "fn": "stanceTruth",
+  "args": [
+   150,
+   44
+  ],
+  "out": "At 150 cm the stance chart reads 43.5 cm; the board's 44.0 cm reference sits 0.5 cm wider honestly."
+ },
+ {
+  "fn": "stanceTruth",
+  "args": [
+   183,
+   53
+  ],
+  "out": "At 183 cm the stance chart reads 53.1 cm; the board's 53.0 cm reference sits 0.1 cm narrower honestly."
+ },
+ {
+  "fn": "stanceTruth",
+  "args": [
+   0,
+   56
+  ],
+  "err": "the rider height must be above zero"
+ },
+ {
+  "fn": "stanceTruth",
+  "args": [
+   178,
+   0
+  ],
+  "err": "the reference stance must be above zero"
+ }
+]
